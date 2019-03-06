@@ -1,7 +1,7 @@
 // Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 
-#include "LogitechWheelPluginPrivatePCH.h"
 #include "LogitechWheelInputDevice.h"
+#include "LogitechWheelPluginPrivatePCH.h"
 #include "LogitechSteeringWheelLib.h"
 #include "ILogitechWheelPlugin.h"
 #include "GenericPlatform/IInputInterface.h"
