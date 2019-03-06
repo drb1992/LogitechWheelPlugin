@@ -4,7 +4,7 @@
 #include "LogitechWheelInputDevice.h"
 #include "LogitechSteeringWheelLib.h"
 #include "ILogitechWheelPlugin.h"
-#include "IInputInterface.h"
+#include "GenericPlatform/IInputInterface.h"
 
 #define InputDevice ILogitechWheelPlugin::Get()
 

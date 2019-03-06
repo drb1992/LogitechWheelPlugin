@@ -5,12 +5,12 @@ using System.IO;
 
 public class LogitechWheelPlugin : ModuleRules
 {
-	public LogitechWheelPlugin(TargetInfo Target)
-	{
+	public LogitechWheelPlugin(ReadOnlyTargetRules Target) : base(Target)
+    {
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"LogitechWheelPlugin/Public"
+                Path.Combine(ModuleDirectory, "Public"),
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class LogitechWheelPlugin : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"LogitechWheelPlugin/Private",
+                Path.Combine(ModuleDirectory, "Private"),
 				// ... add other private include paths required here ...
 			}
 			);
