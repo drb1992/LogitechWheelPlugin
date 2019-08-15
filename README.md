@@ -1,4 +1,6 @@
 # LogitechWheelPlugin
+NOTE: This branch is for UE4.20 and older builds
+
 A plugin for UE4 that allows you to use a number of Logitech steering wheels and joysticks as an input device. 
 
 Supported Devices
