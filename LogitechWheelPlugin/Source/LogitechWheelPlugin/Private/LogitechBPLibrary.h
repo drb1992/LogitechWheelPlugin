@@ -2,8 +2,9 @@
 
 #pragma once
 
-#include "Engine.h"
+#include "CoreMinimal.h"
 #include "LogitechSteeringWheelLib.h"
+#include "ILogitechWheelPlugin.h"
 #include "LogitechBPLibrary.generated.h"
 
 /* 

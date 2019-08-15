@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "ModuleManager.h"
+#include "Modules/ModuleManager.h"
 #include "LogitechWheelPluginPrivatePCH.h"
 #include "LogitechSteeringWheelLib.h"
 #include "IInputDeviceModule.h"

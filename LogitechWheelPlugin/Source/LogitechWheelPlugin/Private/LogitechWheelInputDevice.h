@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "IInputInterface.h"
+#include "GenericPlatform/IInputInterface.h"
 #include "LogitechSteeringWheelLib.h"
 #include "IInputDevice.h"
 //#include "LogitechWheelInputDevice.generated.h"
@@ -52,8 +52,8 @@ private:
 	/* Message handler */
 	TSharedRef<FGenericApplicationMessageHandler> MessageHandler;
 
-	void FLogitechWheelInputDevice::SendButtonUpEvent(FKey button);
-	void FLogitechWheelInputDevice::SendButtonDownEvent(FKey button);
-	void FLogitechWheelInputDevice::SendAxisEvent(FKey axis, float value);
+	void SendButtonUpEvent(FKey button);
+	void SendButtonDownEvent(FKey button);
+	void SendAxisEvent(FKey axis, float value);
 
 };
